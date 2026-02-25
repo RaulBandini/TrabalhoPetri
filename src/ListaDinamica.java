@@ -1,4 +1,4 @@
-public class ListaDinamica {
+public class ListaDinamica implements ListaOperacoes {
     No inicio;
 
     public ListaDinamica() {
@@ -91,5 +91,55 @@ public class ListaDinamica {
             System.out.println("Elemento " + elemento + " não existe na lista.");
         }
         return false;
+    }
+
+    @java.lang.Override
+    public int removerTodas(String elemento) {
+        return 0;
+    }
+
+    @java.lang.Override
+    public int contar() {
+        return 0;
+    }
+
+    @java.lang.Override
+    public int adicionarVarios(String[] elementos) {
+        return 0;
+    }
+
+    @java.lang.Override
+    public String obter(int indice) {
+        return null;
+    }
+
+    @java.lang.Override
+    public boolean inserir(int indice, String elemento) {
+        return false;
+    }
+
+    @java.lang.Override
+    public String removerPorIndice(int indice) {
+        return null;
+    }
+
+    @java.lang.Override
+    public void limpar() {
+
+    }
+
+    @java.lang.Override
+    public int ultimoIndiceDe(String elemento) {
+        return 0;
+    }
+
+    @java.lang.Override
+    public int contarOcorrencias(String elemento) {
+        return 0;
+    }
+
+    @java.lang.Override
+    public int substituir(String antigo, String novo) {
+        return 0;
     }
 }
