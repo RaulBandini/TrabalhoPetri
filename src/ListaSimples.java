@@ -1,4 +1,4 @@
-public class ListaSimples {
+public class ListaSimples implements ListaOperacoes{
     String [] lista;
     public ListaSimples(int tamanho) {
         this.lista = new String[tamanho];
@@ -78,5 +78,55 @@ public class ListaSimples {
         } else {
             System.out.println("O elemento " + elemento + " não existe na lista.");
         }
+    }
+
+    @Override
+    public int removerTodas(String elemento) {
+        return 0;
+    }
+
+    @Override
+    public int contar() {
+        return 0;
+    }
+
+    @Override
+    public int adicionarVarios(String[] elementos) {
+        return 0;
+    }
+
+    @Override
+    public String obter(int indice) {
+        return "";
+    }
+
+    @Override
+    public boolean inserir(int indice, String elemento) {
+        return false;
+    }
+
+    @Override
+    public String removerPorIndice(int indice) {
+        return "";
+    }
+
+    @Override
+    public void limpar() {
+
+    }
+
+    @Override
+    public int ultimoIndiceDe(String elemento) {
+        return 0;
+    }
+
+    @Override
+    public int contarOcorrencias(String elemento) {
+        return 0;
+    }
+
+    @Override
+    public int substituir(String antigo, String novo) {
+        return 0;
     }
 }
